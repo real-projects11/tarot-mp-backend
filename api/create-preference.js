@@ -9,6 +9,11 @@ const PLANS = {
     price: 7990,
     success_url: 'https://tarot-10-tiradas.netlify.app/?reset=$7i$&payment=success',
   },
+  semanal: {
+    title: 'Tarot - Guía Diaria VIP (7 días)',
+    price: 14990,
+    success_url: 'https://tarot-7-dias.netlify.app/?reset=$7i$&payment=success',
+  },
 };
 
 const FAILURE_URL = 'https://tarot-3-tiradas.netlify.app/?payment=failure';
